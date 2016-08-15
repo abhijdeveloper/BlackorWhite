@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/events"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_alignBaseline="@+id/galleryButton"
+        android:layout_alignBottom="@+id/galleryButton"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/black1" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/events"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sp" />
+
+    <Button
+        android:id="@+id/galleryButton"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/white2" />
+
+    <Button
+        android:id="@+id/notify"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/events"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/via" />
+
+    <Button
+        android:id="@+id/feedback_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/button6"
+        android:layout_toLeftOf="@+id/button6"
+        android:background="@drawable/start1" />
+
+    <Button
+        android:id="@+id/feedback_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignRight="@+id/notify"
+        android:layout_below="@+id/button6"
+        android:background="@drawable/stop1" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/notify"
+        android:layout_alignRight="@+id/galleryButton"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/logo1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="Black or White"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="25dp" />
+
+</RelativeLayout>
